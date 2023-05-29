@@ -1,4 +1,4 @@
-package customer_info;
+package q5_customer_info;
 
 import java.awt.*;
 import java.awt.event.*;

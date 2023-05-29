@@ -1,4 +1,4 @@
-package book_collection;
+package q2_book_collection;
 
 public class Books {
 	String title, Author, publisher;

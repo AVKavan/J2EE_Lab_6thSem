@@ -1,4 +1,4 @@
-package student_swings;
+package q3_student_swings;
 
 public class Student {
 	String name, usn, address, category;

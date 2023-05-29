@@ -1,4 +1,4 @@
-package student_swings;
+package q3_student_swings;
 
 import java.awt.*;
 import java.awt.event.*;

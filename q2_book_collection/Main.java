@@ -1,4 +1,4 @@
-package book_collection;
+package q2_book_collection;
 
 import java.util.*;
 
