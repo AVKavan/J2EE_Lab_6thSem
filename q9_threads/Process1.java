@@ -4,6 +4,7 @@ public class Process1 extends Thread{
 
 	String word;
 	String vowels = "aAeEIiOoUu";
+	String vowels_in_word="";
 	
 	public void run()
 	{
@@ -15,11 +16,15 @@ public class Process1 extends Thread{
 	    for(char w: word.toCharArray())
 	    {
 	    	for(char c: vowels.toCharArray())
-	    		if(w == c) count++;
+	    		if(w == c) 
+	    		{
+	    			count++;
+	    			vowels_in_word+=c;
+	    		}
 	    	
 	    }
 	    
-	    System.out.println("Number of vowels in the word "+word+"is = "+count);
+	    System.out.println("Number of vowels in the word "+word+" is = "+count+", and the vowels are "+vowels_in_word );
 	}
 	
 

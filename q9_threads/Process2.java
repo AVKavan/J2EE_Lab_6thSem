@@ -17,6 +17,7 @@ public class Process2 extends Thread{
 			int i = (int)c - 48;
 			System.out.print(" "+digits[i]);
 		}
+		System.out.println();
 	}
 
 }
